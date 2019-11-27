@@ -1,69 +1,104 @@
 body {
-background-color: #9e9a8e;	
-height:100%;
-  position: relative;
-  margin: 0;
-  padding-bottom: 6rem;
-  min-height: 100%;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+    background-color: #9e9a8e;    
+    height:100%;
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+    font-family: "Helvetica Neue", Arial, sans-serif;
 }
 .header {
-	background-image: url("../images/header.png");
-	width: 100%;
-	height: 100px;
+    background-image: url("../images/header.png");
+    width: 100%;
+    height: 100px;
 }
 .topnav {
     overflow: hidden;
-    background: #a3a29e;
+    background-color: #333;
     min-width: 340px;
     max-width: 1920px;
     float: none;
     margin: 0px;
-  }
-
-  .topnav a {
+}
+    
+.topnav a {
     float: left;
+    display: block;
+    color: white;
+    /* text-align: center; */
+    padding: 20px;
+    text-decoration: none;
+}
+    
+.topnav a:hover {
+    background-color: #DDDDDD;
+    color: black;
+}
+.container {
+    min-height: 100%; 
+    height:100%;
+    margin: auto; 
+}
+.footer {
+    position: relative;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+}
+.winkelmand {
+    margin-right: 100px;
+    margin-top: -55px;
+    float: right;
+}
+.winkelmand a{
     display: block;
     color: white;
     text-align: center;
     padding: 20px;
     text-decoration: none;
-  }
-
-  .topnav a:hover {
-    background-color: #DDDDDD;
-    color: black;
-  }
-  .container {
-	  min-height: 100%; 
-	  height:100%;
-	  margin: auto; 
-  }
-.footer {
-  position: relative;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #efefef;
-  text-align: center;
-}
-.winkelmand {
-	margin-right: 100px;
-	margin-top: -55px;
-	float: right;
-}
-.winkelmand a{
-	display: block;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    text-decoration: none;
-	min-width: 100px;
+    min-width: 100px;
     max-width: 10px;
 }
-  .winkelmand a:hover {
+.winkelmand a:hover {
     background-color: #DDDDDD;
     color: black;
-  }
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+    
+li {
+    float: left;
+}
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 158px;
+    min-width: 135px;
+}
+nav ul li:hover > ul {
+    display: block;
+}
+nav ul ul li {
+    width: 135px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+nav ul ul li a{
+    width: 135px;
+    text-align: left;
+    color: aqua;
+}
+nav ul ul li:hover {
+    background-color: white;
+    color:black;
+}

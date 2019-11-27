@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Chorro - Home</title>
+<title>Chorro - Contact</title>
 <div class= "header"></div>
-<div class= "winkelwagen"></div>
-<link rel="icon" href="images/favicon.jpg" type="image/jpg" sizes="16x16">
-<link rel="stylesheet" href="css/style.css">
+<div class= "winkelwagen"></div>  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <header>
@@ -31,14 +29,14 @@
   <li><a href="contact.php">Contact</a></li>
   </div>
   <div class="winkelmand">
-  <a href="#">Winkelwagen</a>
-  <link rel="stylesheet" href="css/style.css">
+  <a href="#">Winkelwagen</a></div>
   </ul>
   </nav>
 </header>
+</div>
 
-
-
+	
+</div>
 <?php include 'footer.php';?>
 
 </body>
