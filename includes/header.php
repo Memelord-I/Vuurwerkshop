@@ -3,25 +3,17 @@
 <nav>
 <ul>
   <li><a href="index.php">Home</a></li>
-   <li><a href="knalvuurwerk.php">Knalvuurwerk</a>
-   <ul>
-   <li><a href="#">Zacht</a></li>
-   <li><a href="#">Normaal</a></li>
-   <li><a href="knalhard.php">Hard</a></li>
-   </ul>
-   </li>
-    <li><a href="siervuurwerk.php">Siervuurwerk</a>
+    <li><a href="#">Producten</a>
 	   <ul>
-   <li><a href="#">Fontijnen</a></li>
-   <li><a href="#">Pijlen</a></li>
-   <li><a href="#">Cakes</a></li>
+   <li><a href="siervuurwerk.php">Siervuurwerk</a></li>
+   <li><a href="knalvuurwerk.php">Knalvuurwerk</a></li>
    </ul>
    </li>
 	 <li><a href="producten.php">Compleet assortiment</a></li>
   <li><a href="contact.php">Contact</a></li>
   </div>
   <div class="winkelmand">
-  <a href="#">Winkelwagen</a>
+  <a href="#"><img src='../images/card.png'> Winkelwagen</a>
   <link rel="stylesheet" href="css/style.css">
   </ul>
   </nav>
