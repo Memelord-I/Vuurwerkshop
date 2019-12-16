@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Chorro - Contact</title>
+<title>Chorro - Knalvuurwerk</title>
 <div class= "header"></div>
 <div class= "winkelwagen"></div>  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <?php include 'includes/header.php'?>
-</div>
+<Br>
+<?php include 'select.php'?>
 
 	
-</div>
 <?php include 'footer.php';?>
 
 </body>

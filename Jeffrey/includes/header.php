@@ -10,7 +10,6 @@
    </ul>
    </li>
 	 <li><a href="producten.php">Compleet assortiment</a></li>
-  <li><a href="contact.php">Contact</a></li>
   </div>
   <div class="winkelmand">
   <a href="#"><img src='../images/card.png'> Winkelwagen</a>

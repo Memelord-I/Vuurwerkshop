@@ -10,15 +10,22 @@ try {
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     // sql to create table
-    $sql = "CREATE TABLE afspraken (Naam VARCHAR(50) NOT NULL,Datum VARCHAR(30) NOT NULL, Tijd VARCHAR(30) NOT NULL, Met_wie VARCHAR(50))";
+    $conn->query("CREATE TABLE IF NOT EXISTS product (
+            naam VARCHAR(50) NOT NULL, 
+            prijs DOUBLE(5,2) NOT NULL, 
+            vooraad INTEGER NOT NULL, 
+            categorieen VARCHAR(50) NOT NULL, 
+            url_afbeelding VARCHAR(100) NOT NULL,
+            PRIMARY KEY (naam)
+            )");
 
     // use exec() because no results are returned
-    $conn->exec($sql);
+    //$conn->exec($sql);
     echo "Table afspraken created successfully";
     }
 catch(PDOException $e)
     {
-    echo $sql . "<br>" . $e->getMessage();
+    //echo $sql . "<br>" . $e->getMessage();
     }
 
 $conn = null;
